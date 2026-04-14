@@ -1,0 +1,15 @@
+header {
+  background: black;
+  color: lime;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header p {
+  color: white;
+}
