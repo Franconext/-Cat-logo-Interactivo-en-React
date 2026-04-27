@@ -1,16 +1,94 @@
-# React + Vite
+# 🛍️ Catálogo Interactivo en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado como parte del **Curso de React.js de Tecno3f**. Es una aplicación web interactiva que simula un catálogo de productos construido con React y Vite.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologías utilizadas
 
-## React Compiler
+- [React 19](https://react.dev/) — Biblioteca principal para la interfaz de usuario
+- [Vite 8](https://vite.dev/) — Bundler y servidor de desarrollo ultrarrápido
+- [JavaScript (ES Modules)](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules) — Lenguaje principal del proyecto
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS) — Estilos de la aplicación
+- [ESLint](https://eslint.org/) — Linter para mantener la calidad del código
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Estructura del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+├── src/               # Código fuente de la aplicación
+├── index.html         # Punto de entrada HTML
+├── package.json       # Dependencias y scripts
+├── vite.config.js     # Configuración de Vite
+├── eslint.config.js   # Configuración de ESLint
+└── .gitignore
+```
+
+---
+
+## ⚙️ Instalación y uso
+
+### Prerrequisitos
+
+- Node.js (versión 18 o superior recomendada)
+- npm
+
+### Pasos
+
+1. **Clonar el repositorio**
+
+```bash
+git clone https://github.com/Franconext/-Cat-logo-Interactivo-en-React.git
+cd -Cat-logo-Interactivo-en-React
+```
+
+2. **Instalar dependencias**
+
+```bash
+npm install
+```
+
+3. **Iniciar el servidor de desarrollo**
+
+```bash
+npm run dev
+```
+
+La aplicación estará disponible en `http://localhost:5173`.
+
+---
+
+## 📜 Scripts disponibles
+
+| Script | Descripción |
+|--------|-------------|
+| `npm run dev` | Inicia el servidor de desarrollo con HMR |
+| `npm run build` | Genera la versión de producción en `/dist` |
+| `npm run preview` | Previsualiza el build de producción |
+| `npm run lint` | Ejecuta ESLint para revisar el código |
+
+---
+
+## 📚 Contexto del proyecto
+
+Este proyecto forma parte del curso de **React.js dictado por Tecno3f**, donde se practican conceptos fundamentales como:
+
+- Creación y composición de componentes
+- Manejo del estado con `useState` y hooks
+- Renderizado de listas y uso de `props`
+- Interactividad del usuario (filtros, búsqueda, selección de productos)
+- Estructura de proyectos con Vite + React
+
+---
+
+## 👤 Autor
+
+**Franconext**  
+[GitHub](https://github.com/Franconext)
+
+---
+
+## 📄 Licencia
+
+Este proyecto es de uso educativo y no posee una licencia definida.
